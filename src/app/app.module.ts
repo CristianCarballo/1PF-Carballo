@@ -8,6 +8,7 @@ import { StudentsPageComponent } from './pages/students-page/students-page.compo
 import { MyMaterialModule } from './shared/modules/my-material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StudentDialogComponent } from './shared/components/student-dialog/student-dialog.component';
+import { NavbarComponent } from './shared/layout/navbar/navbar.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { StudentDialogComponent } from './shared/components/student-dialog/stude
     HeaderComponent,
     PageWrapperComponent,
     StudentsPageComponent,
-    StudentDialogComponent
+    StudentDialogComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
